@@ -2,7 +2,7 @@
 Smart Golf Club
 
 A smart golf club and webapp that provides the ultimate golf putting training experience.
-Collects a range of data of the putt and the environment, and provides insights with analytics of performance and angle deviation, all on a user-friendly interface.
+Collects a range of data of the putt and the environment, and provides insights with analytics such as performance and angle deviation, all on a user-friendly interface.
 
 As usual, node_modules folder created on node js app creation excluded from commits.
 
