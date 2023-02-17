@@ -12,7 +12,7 @@ function App() {
   const [currentForm, setCurrentForm] = useState('login');
   const [childVariable, setChildVariable] = useState([]);
 
-  const ip = 'http://54.237.85.94:4000';
+  const ip = 'http://54.242.182.158:4000';
   const toggleForm = (formName) => {
     setCurrentForm(formName);
   }
