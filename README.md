@@ -14,3 +14,6 @@ In production, a Certificate authority (CA) verified certificate can be bought a
 Here is the link:
 
 https://bkmzad.wixsite.com/proputter
+
+
+The marketing video is embedded at this link: https://bkmzad.wixsite.com/proputter/about-1 , please give it a moment to load in.
