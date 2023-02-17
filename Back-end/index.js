@@ -134,15 +134,6 @@ function getMetrics(data){
          }
          var maxSpeed = Math.max(...speed)
          var theta = angleNormalise*Math.atan(velocity[speed.indexOf(maxSpeed)].y / velocity[speed.indexOf(maxSpeed)].x)
- 	// var start = parseInt(0.2*velocity.length)
- 	// var theta = 0
-	// var tmp = 0;
-	// var k =1;
-	// for(var j = velocity.length-start; j<velocity.length; j++){
- 	//	 k = k+1;
-	//	 var tmp = tmp +  Math.abs(Math.atan(velocity[j].y / velocity[j].x))
-	 //}
-	 //theta = tmp/k;
 
          return payload = [maxSpeed, Math.abs(theta), json["0"][3], json["0"][4]]
 };
