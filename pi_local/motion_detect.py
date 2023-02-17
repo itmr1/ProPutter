@@ -9,9 +9,8 @@ class motion():
         if(abs(data) > self.m_t):
             return True
     
+    # UNUSED IN FINAL DESIGN
     def straightness(self, data_x, data_y = None):
-        # long_condition = abs(9.81 - abs(data_y)) > self.s_t
-        # abs(data_y) > 9.81 + self.s_t or abs(data_y) < 9.81 - self.s_t
         if(data_y):
             if(abs(data_x) > self.s_t[0] or (abs(9.81 - abs(data_y)) > self.s_t[1])):
                 return False

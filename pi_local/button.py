@@ -1,11 +1,4 @@
 import RPi.GPIO as gpio
-#192.168.32.71 hostname
-
-"""
-the text after gpio.IN is the internal pull up resistor of the rpi
-you need to enable this to get a clean reading from the button
-Since the button goes to ground, we need to pull it hup to hold the input high until you press it
-"""
 
 class button():
     def __init__(self):
