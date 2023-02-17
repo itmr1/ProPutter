@@ -1,0 +1,302 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+#title {
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: 5px;
+  font-style: italic;
+  font-family: brush script mt, cursive;
+  font-size: 30px;
+  background-color: #8bd6d6;
+}
+
+.NavBar{
+  max-width: 15vw;
+  min-width: 150px;
+  flex-grow:1;
+  border-right-style: solid;
+  border-right-color: white;
+  border-right-width: 5px;
+  background-color: #ffc3a0;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Home {
+  flex-grow:4;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  background-color: 	#0dc9c9;
+}
+
+#links{
+  height: 30%;
+  align-self: center;
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+
+.link{
+  background-color: #fdfdfd;
+  padding: 20px;
+  border-radius: 10px;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+
+.link:hover{
+  background-color: #ff8943;
+  color:white;
+}
+
+#hometext{
+  font-size: 20px;
+  padding: 20px;
+}
+
+.auth-form-container{
+  flex-grow:4;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  background-color: 	#0dc9c9;
+}
+
+.login-form{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:50%;
+  font-weight:bold;
+}
+
+.register-form{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:70%;
+  font-weight:bold;
+}
+
+
+.form-wrapper{
+  min-height: 300px;
+  background-color: #8bd6d6;
+  border-radius: 20px;
+  display:flex;
+  flex-direction: column;
+  padding:20px;
+  justify-content: space-around;
+}
+
+#dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: stretch;
+
+}
+
+#titDash{
+  background-color: #0dc9c9;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: 5px;
+  height: 100px;
+  width:100%;
+}
+
+#ftit{
+  padding-left: 20px;
+  padding-top:30px;
+}
+
+#data {
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  height: 100%;
+}
+
+#analytics{
+  justify-content: stretch;
+  padding: 20px;
+  width:80vw;
+  background-color: rgb(230, 230, 230);
+  border-right-style: solid;
+  border-right-color: white;
+  border-right-width: 5px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#friends {
+  background-color: #ff8943;
+  width:20vw;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#friendList{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: #ffae7e;
+  border-radius: 20px;
+  width: 70%;
+  align-self: center;
+  height: 250px;
+  overflow-y:auto;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+.butWrap{
+  margin-bottom: 10px;
+}
+
+.aFriend:hover{
+  background-color: rgba(255, 190, 93, 0.3);
+}
+
+.aFriend{
+  background-color: white ;
+  min-width:30%;
+  width: fit-content;
+  align-self: center;
+  border-radius: 10px;
+  padding:10px;
+  font-weight: bold;
+}
+
+#logbut{
+  padding: 10px;
+  font-size: large;
+  background-color: #ff8943;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.search-bar{
+  background-color: #ffae7e;
+  width:70%;
+  align-self: center;
+  margin-top: 20px;
+  border-radius: 20px;;
+}
+
+.search-input{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:100px;
+}
+
+.recent{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.averages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+#graphs{
+  display: flex;
+  flex-direction: row;
+
+}
+
+#perfGraph{
+  height:auto;
+  width:90%;
+  background-color: #fdfdfd;
+  border-radius: 20px;
+  padding:5px;
+}
+
+#scattGraph{
+  height:auto;
+  width:90%;
+  background-color: #fdfdfd;
+  border-radius: 20px;
+  padding:5px;
+  margin-left:10px;
+
+}
+
+.stat{
+  background-color: rgb(255, 255, 255);
+  padding:5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#friendspage{
+  width:100vw;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+  justify-content: start;
+  gap: 50px;
+}
+
+#fpage{
+  width:100vw;
+  height:100vh;
+}
+
+#fgraphs{
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#fperfGraph{
+  width:40%;
+  height: auto;
+  padding:10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#fscattGraph{
+  width:40%;
+  height: auto;
+  padding:10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#backbutt{
+  padding:10px;
+  font-size: large;
+  border-radius: 5px;
+
+}
